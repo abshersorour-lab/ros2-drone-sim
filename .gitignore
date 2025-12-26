@@ -1,0 +1,11 @@
+# ROS 2 workspace
+build/
+install/
+log/
+
+# VS Code settings
+.vscode/
+
+# OS / misc
+*.swp
+*.DS_store
