@@ -27,5 +27,5 @@ The goal was to practice:
   - rclcpp
   - sensor_msgs
   - joy
-- **Hardware:** Game controller / joystick (tested using the Xbox 360 based Flydigi Apex 3 controller) 
+- **Hardware:** Game controller / joystick (tested and coded based on the Xbox-360-based Flydigi Apex 3 controller) 
 
