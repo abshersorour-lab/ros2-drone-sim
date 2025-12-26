@@ -1,11 +1,10 @@
-# ROS 2 workspace
+# ROS 2 build artifacts
 build/
 install/
 log/
 
-# VS Code settings
+# Editor junk
 .vscode/
 
-# OS / misc
-*.swp
+# OS junk
 *.DS_store
