@@ -56,7 +56,7 @@ source install/setup.bash
 
 ---
 
-Running the Simulator
+## Running the Simulator
 1. Start the joystick node:
 ```
 ros2 run joy joy_node
