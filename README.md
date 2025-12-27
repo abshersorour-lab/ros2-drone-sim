@@ -57,16 +57,26 @@ source install/setup.bash
 ---
 
 ## Running the Simulator
+
+(please run each of the following commands in a separate terminal window of their own, all in "~/ros2_ws")
 1. Start the joystick node:
 ```
 ros2 run joy joy_node
 ```
-   Verify input:
+2. Verify input
 ```
 ros2 topic echo /joy
 ```
-2. Run the drone simulation
-in a separate terminal window:
+3. Run the drone simulation
 ```
 ros2 run drone_sim drone_sim
 ```
+
+---
+
+## Disclaimer
+This project is primarily a learning and experimentation sandbox for practicing C++ and ROS 2 Fundamentals.
+It intentionally steers away from real-world flight and control accuracy.
+
+The simulation is designed with simplicity in mind to allow for ease of expansion as in the future it may serve as a prototype for new ideas or integrate
+more advanced concepts as my understanding deepens.
